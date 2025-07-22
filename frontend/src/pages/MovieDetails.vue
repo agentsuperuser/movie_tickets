@@ -100,16 +100,16 @@
         </div>
 
         <div class="flex flex-row mt-6 space-x-3">
-            <Button 
+            <Button
                 size="lg" 
                 variant="subtle" 
                 v-if="currentStep !== 0 && currentStep != 4" 
                 @click="currentStep--"
             >Go Back</Button>
-    
-            <Button 
+            
+            <Button
                 size="lg"
-                variant="solid" 
+                variant="solid"
                 v-if="currentStep !== 0 && currentStep != 4"
                 @click="currentStep++"
             >Next</Button>
